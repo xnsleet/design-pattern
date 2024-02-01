@@ -8,5 +8,11 @@
     <artifactId>design-pattern</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apche.maven.plugin</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
