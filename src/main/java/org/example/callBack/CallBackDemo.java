@@ -1,10 +1,12 @@
 package org.example.callBack;
 
+import java.lang.reflect.Proxy;
+
 /**
  * 回调
  * 解释：
  *  回调表示一段可执行逻辑的引用（或者是指针），我们把改引用（或者是指针）传递到另一段逻辑（或是方法）里，供这段逻辑适时调用。
- *
+ * 动态
  * @author wb.xuening01
  * @version 2024/1/31
  */
