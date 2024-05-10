@@ -1,4 +1,10 @@
-package org.example.abstractFactory;
+package org.example.abstractFactory.factory;
+
+import org.example.abstractFactory.factory.AbstractFactory;
+import org.example.abstractFactory.color.Color;
+import org.example.abstractFactory.shape.Circle;
+import org.example.abstractFactory.shape.Shape;
+import org.example.abstractFactory.shape.Square;
 
 /**
  * @author sleet

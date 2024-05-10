@@ -1,4 +1,4 @@
-package org.example.abstractFactory;
+package org.example.abstractFactory.color;
 
 /**
  * @author sleet
