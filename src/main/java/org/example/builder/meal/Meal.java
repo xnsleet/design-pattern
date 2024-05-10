@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Meal {
 
-    private List<Item> list = new ArrayList<>();
+    private final List<Item> list = new ArrayList<>();
 
     public void addItem(Item item) {
         list.add(item);

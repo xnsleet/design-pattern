@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 public class ShapeCache {
 
-    private static HashMap<String,Shape> map = new HashMap<>();
+    private static final HashMap<String,Shape> map = new HashMap<>();
 
     public static Shape getShape(String type){
         Shape shape = map.get(type);
