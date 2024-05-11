@@ -9,7 +9,7 @@ import org.example.bridging.draw.DrawAPI;
 public class Circle
         extends Shape {
 
-    private int x, y, radius;
+    private final int x, y, radius;
 
     public Circle(DrawAPI drawAPI, int x, int y, int radius) {
         super(drawAPI);
