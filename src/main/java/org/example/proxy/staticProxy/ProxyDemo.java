@@ -1,6 +1,8 @@
 package org.example.proxy.staticProxy;
 
 /**
+ * 静态代理
+ *
  * @author sleet
  * @version 2024/4/11
  */

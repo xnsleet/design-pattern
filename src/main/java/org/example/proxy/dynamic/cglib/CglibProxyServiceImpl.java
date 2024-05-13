@@ -1,6 +1,6 @@
 package org.example.proxy.dynamic.cglib;
 
-import org.example.proxy.dynamic.StudentService;
+import org.example.proxy.dynamic.service.StudentService;
 
 /**
  * @author sleet

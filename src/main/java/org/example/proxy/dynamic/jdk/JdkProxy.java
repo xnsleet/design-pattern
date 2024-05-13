@@ -1,6 +1,6 @@
 package org.example.proxy.dynamic.jdk;
 
-import org.example.proxy.dynamic.StudentService;
+import org.example.proxy.dynamic.service.StudentService;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

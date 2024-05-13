@@ -1,4 +1,4 @@
-package org.example.proxy.dynamic;
+package org.example.proxy.dynamic.service;
 
 /**
  * @author sleet

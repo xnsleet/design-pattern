@@ -1,10 +1,12 @@
 package org.example.proxy.dynamic.jdk;
 
-import org.example.proxy.dynamic.StudentService;
+import org.example.proxy.dynamic.service.StudentService;
 
 import java.lang.reflect.Proxy;
 
 /**
+ * JDK动态代理
+ *
  * @author sleet
  * @version 2024/4/11
  */

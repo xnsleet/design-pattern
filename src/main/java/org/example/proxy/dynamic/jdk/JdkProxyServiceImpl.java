@@ -1,6 +1,6 @@
 package org.example.proxy.dynamic.jdk;
 
-import org.example.proxy.dynamic.StudentService;
+import org.example.proxy.dynamic.service.StudentService;
 
 /**
  * @author sleet

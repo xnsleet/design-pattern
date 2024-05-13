@@ -3,7 +3,6 @@ package org.example.proxy.dynamic.cglib;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-import org.example.proxy.dynamic.StudentService;
 
 import java.lang.reflect.Method;
 

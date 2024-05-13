@@ -1,8 +1,10 @@
 package org.example.proxy.dynamic.cglib;
 
-import org.example.proxy.dynamic.StudentService;
+import org.example.proxy.dynamic.service.StudentService;
 
 /**
+ * Cglib动态代理
+ *
  * @author sleet
  * @version 2024/4/11
  */
