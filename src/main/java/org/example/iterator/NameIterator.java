@@ -1,0 +1,23 @@
+package org.example.iterator;
+
+/**
+ * @author sleet
+ * @version 2024/5/13
+ */
+public class NameIterator
+        implements Iterator {
+
+    private final String[] names = {"tom", "jack", "mack"};
+
+    int index;
+
+    @Override
+    public boolean hasNext() {
+        return names.length > index;
+    }
+
+    @Override
+    public Object next() {
+        return names[index++];
+    }
+}
