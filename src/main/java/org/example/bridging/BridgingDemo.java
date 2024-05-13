@@ -5,7 +5,7 @@ import org.example.bridging.draw.RedCircle;
 import org.example.bridging.shape.Circle;
 
 /**
- * 桥接模式：
+ * 桥接模式（结构型模式）：
  *      将抽象部分与实现部分分离，使它们都可以独立的变化。
  * 主要解决：
  *      在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。

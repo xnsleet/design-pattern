@@ -4,7 +4,7 @@ import org.example.builder.meal.Meal;
 import org.example.builder.meal.MealBuilder;
 
 /**
- * 建造者模式：
+ * 建造者模式（创建型模式）：
  *      将一个复杂的构建与其表示相分离，使得同样的构建过程可以创建不同的表示。
  * 主要解决：
  *      主要解决在软件系统中，有时候面临着"一个复杂对象"的创建工作，其通常由各个部分的子对象用一定的算法构成；

@@ -4,7 +4,7 @@ import org.example.facade.shape.Circle;
 import org.example.facade.shape.Rectangle;
 
 /**
- * 外观模式：
+ * 外观模式（结构型模式）：
  *      为子系统中的一组接口提供一个一致的界面，外观模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
  * 主要解决：
  *      降低访问复杂系统的内部子系统时的复杂度，简化客户端之间的接口。
