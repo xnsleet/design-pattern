@@ -10,7 +10,7 @@ import java.util.List;
 public class Composite
         implements Component {
 
-   private final List<Component> list = new ArrayList<>();
+   private static final List<Component> list = new ArrayList<>();
 
     @Override
     public String operation() {
