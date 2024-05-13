@@ -7,8 +7,14 @@ package org.example.iterator;
 public class NameRepository
         implements Container {
 
+    private final String[] names;
+
+    public NameRepository(String[] names) {
+        this.names = names;
+    }
+
     @Override
     public Iterator getIterator() {
-        return new NameIterator();
+        return new NameIterator(names);
     }
 }

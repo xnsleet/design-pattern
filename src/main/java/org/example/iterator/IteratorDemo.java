@@ -15,7 +15,8 @@ package org.example.iterator;
 public class IteratorDemo {
 
     public static void main(String[] args) {
-        NameRepository nameRepository = new NameRepository();
+        String[] names ={"tom", "jack", "mack"};
+        NameRepository nameRepository = new NameRepository(names);
         Iterator iterator = nameRepository.getIterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());

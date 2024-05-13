@@ -7,9 +7,13 @@ package org.example.iterator;
 public class NameIterator
         implements Iterator {
 
-    private final String[] names = {"tom", "jack", "mack"};
+    private final String[] names;
 
-    int index;
+    private int index;
+
+    public NameIterator(String[] names) {
+        this.names = names;
+    }
 
     @Override
     public boolean hasNext() {
