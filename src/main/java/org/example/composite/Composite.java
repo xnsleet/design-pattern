@@ -1,4 +1,4 @@
-package org.example.combination;
+package org.example.composite;
 
 import java.util.ArrayList;
 import java.util.List;

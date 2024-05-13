@@ -1,4 +1,4 @@
-package org.example.combination;
+package org.example.composite;
 
 /**
  * @author sleet
